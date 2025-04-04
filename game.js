@@ -11452,7 +11452,7 @@ let attemptsLeft = 5;
 let incorrectGuesses = [];
 let correctAnswer = countyImages[currentCountyIndex].replace('.svg', '');
 let gameOver = false;
-const maxDistanceKm = 500; // Adjust as needed for England (was 120 for NI)
+const maxDistanceKm = 548.78; // Adjust as needed for England (was 120 for NI)
 
 document.getElementById('county-image').src = 'images4/' + countyImages[currentCountyIndex];
 document.getElementById('attempts-left').value = `Attempts left: ${attemptsLeft}`;
