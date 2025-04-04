@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Place!Know Your Place</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/KYP.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="start-screen" id="start-screen">
+        <p>To play 'Know Your Place' press play</p>
+        <img src="images/KYP.jpg" alt="Pre-game Image">
+        <p></p>
+        <button id="play-button">Play</button>
+    </div>
+
+    <div class="game-container" id="game-container" style="display: none;">
+        <h1>Know Your Place!</h1>
+        <h2>England - Counties</h2>
+        <h3>The desired county is in Red.</h3>
+        <div class="game-board">
+            <img id="county-image" src="images4/Bedfordshire.svg" alt="County Image">
+            <div class="correct-answer"></div>
+            <div class="guess-container">
+                <input type="text" id="guess-input" placeholder="Guess the County...">
+                <div id="dropdown-options" class="dropdown"></div>
+                <button id="submit-guess">Submit</button>
+            </div>
+            <div id="feedback"></div>
+            <div id="attempts-left-container">
+                <input type="text" id="attempts-left" value="Attempts left: 5" disabled>
+                <div class="incorrect-guesses-row">
+                    <input type="text" class="incorrect-guess" id="incorrect-guess-4" value="" disabled>
+                    <input type="text" class="distance" id="distance-4" value="" disabled>
+                    <div class="direction-arrow-container" id="direction-arrow-container-4"></div>
+                    <input type="text" class="percentage" id="percentage-4" value="" disabled>
+                </div>
+                <div class="incorrect-guesses-row">
+                    <input type="text" class="incorrect-guess" id="incorrect-guess-3" value="" disabled>
+                    <input type="text" class="distance" id="distance-3" value="" disabled>
+                    <div class="direction-arrow-container" id="direction-arrow-container-3"></div>
+                    <input type="text" class="percentage" id="percentage-3" value="" disabled>
+                </div>
+                <div class="incorrect-guesses-row">
+                    <input type="text" class="incorrect-guess" id="incorrect-guess-2" value="" disabled>
+                    <input type="text" class="distance" id="distance-2" value="" disabled>
+                    <div class="direction-arrow-container" id="direction-arrow-container-2"></div>
+                    <input type="text" class="percentage" id="percentage-2" value="" disabled>
+                </div>
+                <div class="incorrect-guesses-row">
+                    <input type="text" class="incorrect-guess" id="incorrect-guess-1" value="" disabled>
+                    <input type="text" class="distance" id="distance-1" value="" disabled>
+                    <div class="direction-arrow-container" id="direction-arrow-container-1"></div>
+                    <input type="text" class="percentage" id="percentage-1" value="" disabled>
+                </div>
+                <div class="incorrect-guesses-row">
+                    <input type="text" class="incorrect-guess" id="incorrect-guess-0" value="" disabled>
+                    <input type="text" class="distance" id="distance-0" value="" disabled>
+                    <div class="direction-arrow-container" id="direction-arrow-container-0"></div>
+                    <input type="text" class="percentage" id="percentage-0" value="" disabled>
+                </div>
+            </div>
+            <button id="reload-button">Reload Game</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
