@@ -11430,7 +11430,7 @@ const countyCoordinates = {
 
 const countyImages = ['Bedfordshire.svg', 'Berkshire.svg', 'Bristol.svg', 'Buckinghamshire.svg',
     'Cambridgeshire.svg', 'Cheshire.svg', 'City of London.svg', 'Cornwall.svg',
-    'Durham.svg', 'Cumbria.svg', 'Derbyshire.svg', 'Devon.svg',
+    'County Durham.svg', 'Cumbria.svg', 'Derbyshire.svg', 'Devon.svg',
     'Dorset.svg', 'East Riding of Yorkshire.svg', 'East Sussex.svg', 'Essex.svg',
     'Gloucestershire.svg', 'Greater London.svg', 'Greater Manchester.svg',
     'Hampshire.svg', 'Herefordshire.svg', 'Hertfordshire.svg', 'Isle of Wight.svg',
